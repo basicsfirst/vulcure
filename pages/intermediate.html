@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermediate - Vulcure Cybersecurity</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo fs-3"><a href="../index.html" class="text-white text-decoration-none">Vulcure</a></div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="beginner.html">Beginner</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Advanced</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="py-5">
+            <div class="container">
+                <h1 class="text-center mb-4">Cybersecurity - Intermediate Level</h1>
+                <p>Welcome to the intermediate guide to cybersecurity! This section dives deeper into the practical and technical aspects of securing systems and networks.</p>
+
+                <div class="accordion" id="intermediateAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Threat Modeling
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#intermediateAccordion">
+                            <div class="accordion-body">
+                                Threat modeling is a structured approach to identifying and mitigating potential security threats. Key steps include:
+                                <ul>
+                                    <li>Identifying assets and their value.</li>
+                                    <li>Recognizing potential threats and vulnerabilities.</li>
+                                    <li>Assessing risks and planning mitigations.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Security Tools and Their Usage
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#intermediateAccordion">
+                            <div class="accordion-body">
+                                Learn about essential security tools:
+                                <ul>
+                                    <li><strong>Nmap:</strong> A network scanning tool to identify open ports and services.</li>
+                                    <li><strong>Wireshark:</strong> A network protocol analyzer for traffic monitoring and troubleshooting.</li>
+                                    <li><strong>Burp Suite:</strong> A comprehensive tool for web application security testing.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Incident Response Planning
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#intermediateAccordion">
+                            <div class="accordion-body">
+                                Incident response involves preparing and managing cybersecurity breaches:
+                                <ul>
+                                    <li>Establishing an incident response team.</li>
+                                    <li>Defining procedures for detection, containment, and recovery.</li>
+                                    <li>Regularly testing and updating the plan.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Understanding Encryption
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#intermediateAccordion">
+                            <div class="accordion-body">
+                                Encryption is a key technology in cybersecurity. Topics include:
+                                <ul>
+                                    <li>Symmetric vs. Asymmetric encryption.</li>
+                                    <li>Common algorithms (e.g., AES, RSA).</li>
+                                    <li>Practical applications (e.g., SSL/TLS, file encryption).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Vulcure. All rights reserved.</p>
+    </footer>
+</body>
+</html>
